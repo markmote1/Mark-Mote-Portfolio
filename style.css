@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+}
+
+img {
+    display: block;
+    
+    margin: 20px auto;
+    border-radius: 30px;
+    box-shadow: rgb(145, 1, 1) 0px 10px 10px;
+}
+.disp-img {
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 20px;
+}
