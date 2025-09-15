@@ -16,10 +16,14 @@ img {
     box-shadow: rgb(145, 1, 1) 0px 10px 10px;
 }
 .disp-img {
+
 }
 p {
     font-size: 1.2em;
     line-height: 1.6;
     text-align: center;
     margin-top: 20px;
+}
+p.no-wrap {
+    clear: both;
 }
