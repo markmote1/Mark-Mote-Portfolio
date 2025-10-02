@@ -12,8 +12,21 @@
       content="Websites, Software Development, Mobile Apps Development and SEO Services in Nairobi Kenya"
     />
     <meta name="author" content="Mark Mote" />
-    <meta http-equiv="cookie" content="USA" />
+<meta property="og:title" content="Mark Mote - Software Developer" />
+    <meta property="og:description" content="Web developer & software engineer in Nairobi, Kenya. Explore my projects, skills, and contact me for collaborations." />
+    <meta property="og:image" content="images/markmote.jpg" />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta name="twitter:card" content="summary_large_image" />
     <title>Mark Mote</title>
+     <!-- Favicon & Icons -->
+<link rel="icon" href="images/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+<link rel="manifest" href="images/site.webmanifest" />
+<meta name="theme-color" content="#2575fc">
+
+    <!-- CSS & JS files -->
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
   </head>
@@ -24,11 +37,11 @@
       <header class="header">
         
         <h1>Mark Mote</h1>
-        <img width="100px" src="images/markmote.jpg" alt="Mark Mote Profile" />
+        <img title="Mark Mote" width="100px" src="images/markmote.jpg" alt="Mark Mote Profile" />
         <p>I write code and build projects!</p>
         <a href="">My resume</a>
 
-        <nav class="socials">
+        <nav title="Mark Mote social handles" class="socials">
         <a href="instagram.com">Instagram</a>
         <a href="Linkedin.com">Linkedin</a>
         <a href="Github.com">Github</a>
@@ -42,30 +55,23 @@
       <main>
 
         <!-- about section -->
-      <section class="about">
+      <section title="Who is Mark Mote?" class="about">
 
-        <div>
-        <pre>
-                 
-            <p>
-                     Know me!
+      
+  <h2>About Me</h2>
+  <p>
+    Hello, my name is <strong>Mark Mote</strong>.  
+    I'm a self-taught software developer who enjoys writing code and building projects.  
+    I also run a YouTube channel where I teach people to code for free.  
+    Fun fact: I'm also an amateur boxer 🥊.
+  </p>
 
-             Hello, my name is Mark Mote -  
-        I'm a self Learned software developer,
-        I enjoy writing code and building projects.
-        I also run a youtube channel where i enjoy 
-        teaching people how to code for free.
-                    I'm an amateur boxer!
-        
-        </p>
-        <!-- <iframe src="artarkk.site" frameborder="0"> -->
-        </pre>
-        </div>
+
       </section>
 
       <!-- projects section -->
       <section id="projects">
-        <div>
+        <div title="projects">
         <h1>My Projects</h1>
         <div>
           <hr />
@@ -156,28 +162,33 @@
         
         <div>
             <h2>Contact me</h2>
+
+            <form target="_blank" name="contact form" action="submit">
+
             <fieldset>
             <legend>Contact info</legend>
         <label >
             Your name
-        <input title="Enter your name"  placeholder="Enter your Name" type="text" size="25">
+        <input required name="name" title="Enter your name"  placeholder="Enter your Name" type="text" size="25">
     </label>
         <br><br>
         <label >
             Your email
-        <input title="Enter your email" placeholder="Enter your email" type="email" maxlength="20" size="25"></label>
+        <input required name="email" title="Enter your email" placeholder="Enter your email" type="email" maxlength="20" size="25"></label>
         <br><br>
         <label >
             Your phone
-        <input title="Enter your number" type="tel" placeholder="Enter your number" maxlength="10" size="25"></label>
+        <input required name="number" title="Enter your number" type="tel" placeholder="Enter your number" minlength="10" maxlength="13" size="25"></label>
         </fieldset>
         <br><br>
         <fieldset>
             <legend>Your Message</legend>
         <label > 
-        <textarea title="Enter your message" rows="15" cols="30" placeholder="Enter your message" name="message" id=""></textarea>
+        <textarea required title="Enter your message" rows="15" cols="30" placeholder="Enter your message" name="message" id=""></textarea>
         </fieldset>
+        <button title="Submit your message" type="submit">Submit</button>
     </label>
+    </form>
 
         </div>
       </section>
