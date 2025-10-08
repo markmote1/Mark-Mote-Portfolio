@@ -24,7 +24,6 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
 <link rel="manifest" href="images/site.webmanifest" />
-<meta name="theme-color" content="#2575fc">
 
     <!-- CSS & JS files -->
     <link rel="stylesheet" href="style.css" />
@@ -34,46 +33,57 @@
 
     
 <!-- header section and nav links -->
+ 
       <header class="header">
-        
-        <h1>Mark Mote</h1>
-        <img title="Mark Mote" width="100px" src="images/markmote.jpg" alt="Mark Mote Profile" />
-        <p>I write code and build projects!</p>
-        <a href="">My resume</a>
+        <nav title="Mark Mote social handles" >
+          <ul class="socials">
+            <li><a title="mark mote instagram" target="_blank" href="instagram.com"><img width="20px" src="images/instagram.png" alt="instagram logo"></a></li>
+            <li><a title="mark mote linkedin" target="_blank" href="Linkedin.com"><img width="20px" src="images/linkedin.png" alt="linkedin logo"></a></li>
+            <li><a title="mark mote github" target="_blank" rel="noopener" href="https://github.com/markmote1"><img width="20px" src="images/github.png" alt="github logo"></a></li>
+            <li><a title="mark mote youtube" target="_blank" rel="noopener" href="https://www.youtube.com/@1blessed_nation"><img width="20px" src="images/youtube.png" alt="youtube logo"></a></li>
+            
+          </ul>
 
-        <nav title="Mark Mote social handles" class="socials">
-        <a title="mark mote instagram" target="_blank" href="instagram.com"><img width="20px" src="images/instagram.png" alt="instagram logo"></a>
-       <a title="mark mote linkedin" target="_blank" href="Linkedin.com"><img width="20px" src="images/linkedin.png" alt="linkedin logo"></a>
-       <a title="mark mote github" target="_blank" rel="noopener" href="https://github.com/markmote1"><img width="20px" src="images/github.png" alt="github logo"></a>
-       <a title="mark mote youtube" target="_blank" rel="noopener" href="https://www.youtube.com/@1blessed_nation"><img width="20px" src="images/youtube.png" alt="youtube logo"></a>
-       <a title="mark mote blog" target="_blank" href="artarkk.site"><img width="20px" src="images/blog.svg" alt="blog logo"></a>
-       <a title="mark mote projects" href="#projects"><img width="20px" src="images/project.png" alt="projects logo"></a>
-        <a title="mark mote contact" href="#contact"><img width="20px" src="images/viber.png" alt="call logo"></a>
+        
       </nav>
+        
+        <div class="top">
+          <h1 class="name">Mark </h1> <h1 class="last-name">Mote</h1>
+          </div>
+        <img title="Mark Mote" class="profile-img" width="100px" src="images/markmote.jpg" alt="Mark Mote Profile" />
+        <p class="description">I write code and build projects!</p>
+        <a href="">My resume</a><br><br>
+               <a title="mark mote projects" href="#projects"><img width="20px" src="images/project.png" alt="projects logo"></a>
+              <a title="mark mote blog" target="_blank" href="https://www.artarkk.site"><img width="20px" src="images/blog.svg" alt="blog logo"></a>
+              <a title="mark mote contact" href="#contact"><img width="20px" src="images/viber.png" alt="call logo"></a>
+
+        
       </header>
 <!-- main content -->
       <main>
 
         <!-- about section -->
-      <section title="Who is Mark Mote?" class="about">
+      <div title="Who is Mark Mote?" class="about">
 
-      
-  <h1>About Me <img width="50px" src="images/person.png" alt="About Mark Mote"></h1>
+      <h2>Who I Am !</h2>
+   <img width="50px" src="images/person.png" alt="About Mark Mote">
   
-  <p>
+  <p class="bio">
     Hello, my name is <strong>Mark Mote</strong>.  
     I'm a self-taught software developer who enjoys writing code and building projects.  
-    I also run a YouTube channel where I teach people to code for free.  
+    I also run a YouTube channel where I teach people how to code for free.  
     Fun fact: I'm also an amateur boxer 🥊.
   </p>
 
 
-      </section>
+      </div>
 
       <!-- projects section -->
       <section id="projects">
-        <div title="projects">
-        <h1>My Projects <img width="50px" height="40em" src="images/project.png" alt="My projects"></h1>
+         <h2>My Projects <img width="50px" height="40em" src="images/project.png" alt="My projects"></h2>
+        <div title="projects" class="projects-grid">
+       
+        
         <div class="projo">
           
           <h3>Project 1</h3>
@@ -85,7 +95,7 @@
           <img width="200px" src="images/markmote.jpg" alt="Project2" />
           <p>A personal portfolio</p>
         </div>
-        </div>
+        
         <div class="projo">
           <h3>Project 3</h3>
           <img width="200px" src="images/markmote.jpg" alt="Project3" />
@@ -94,10 +104,11 @@
         </div>
         </div>
       </section>
+      
 
       <!-- skills section -->
       <section class="skills">
-        <h3>What i know! <img width="50px" src="images/skills.png" alt="Skills"></h3>
+        <h2>What i know! <img width="50px" src="images/skills.png" alt="Skills"></h2>
         
         <ul>
           <li>
