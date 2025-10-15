@@ -6,4 +6,4 @@ This is my portfolio website which i decided to develop using plain html, css an
 3. Javascript which is a programming language which adds reactivity to my website, making the website responsive.
 
 Errors-
-I tried to deploy to vercel, after deployment it threw a 404 error.
+I tried to deploy to vercel, after deployment it threw a 404 error.- after changing the main html page to index.html, the vercel error disappeared.
